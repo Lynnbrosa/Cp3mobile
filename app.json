@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "CP3 - Formulários Dinâmicos",
+    "slug": "cp3-formularios-dinamicos",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.cp3.formulariosdinamicos"
+    },
+    "android": {
+      "package": "com.cp3.formulariosdinamicos"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": []
+  }
+}

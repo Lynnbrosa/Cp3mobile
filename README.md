@@ -117,12 +117,10 @@ Tipos suportados: `text`, `email`, `password`, `number`, `textarea`, `date`, `ra
 
 ## Integrantes
 
-> ⚠️ **TODO:** Substituir cada `RMXXXXX` pelo RM real antes de entregar — sem isso o projeto é zerado.
-
-- Leonardo (sobrenome) — RM_____
-- Giovanne (sobrenome) — RM_____
-- Lynn Bueno Rosa — RM_____
-- Gustavo (sobrenome) — RM_____
+- Gustavo Oliveira de Moura — RM555827
+- Giovanne Charelli Zaniboni Silva — RM556223
+- Lynn Bueno Rosa — RM551102
+- Leonardo Baldaia — RM557416
 
 ## Referências
 

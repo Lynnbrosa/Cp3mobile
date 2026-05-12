@@ -5,6 +5,7 @@ web-build/
 npm-debug.*
 yarn-debug.*
 yarn-error.*
+.npm-install.log
 .DS_Store
 *.jks
 *.p8

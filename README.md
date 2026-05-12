@@ -108,12 +108,23 @@ Tipos suportados: `text`, `email`, `password`, `number`, `textarea`, `date`, `ra
 
 ## Prints da aplicação
 
-> Substituir pelas screenshots após rodar o app:
->
-> - `docs/print-form-android.png` — formulário em execução no Android
-> - `docs/print-form-ios.png` — formulário no iOS Simulator
-> - `docs/print-form-web.png` — formulário no navegador
-> - `docs/print-result.png` — tela de resultado após o submit
+Capturas reais geradas com Playwright a partir do build web (`npx expo start --web`), viewport iPhone 13.
+
+| Estado | Print |
+| --- | --- |
+| Formulário inicial (campos vazios) | ![](docs/print-form-empty.png) |
+| Validação obrigatória (submit sem preencher) | ![](docs/print-form-errors.png) |
+| Formulário preenchido | ![](docs/print-form-filled.png) |
+| Resultado após submit (dados gravados em AsyncStorage) | ![](docs/print-result.png) |
+
+Para regerar os prints depois de alterar a UI:
+
+```bash
+npm install --no-save playwright
+npx playwright install chromium
+# em outro terminal: npx expo start --web --port 8081
+node scripts/screenshot.mjs
+```
 
 ## Integrantes
 

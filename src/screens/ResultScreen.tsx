@@ -51,6 +51,7 @@ export function ResultScreen({ values, onBack }: Props) {
 
       <Pressable
         onPress={onBack}
+        accessibilityRole="button"
         style={({ pressed }) => [styles.button, pressed && styles.buttonPressed]}
       >
         <Text style={styles.buttonText}>Voltar ao formulário</Text>

@@ -95,6 +95,7 @@ export function FormScreen({ onSubmitted }: Props) {
           <Pressable
             onPress={handleSubmit}
             disabled={form.isSubmitting}
+            accessibilityRole="button"
             style={({ pressed }) => [
               styles.button,
               styles.primaryButton,
@@ -110,6 +111,7 @@ export function FormScreen({ onSubmitted }: Props) {
           <Pressable
             onPress={handleClear}
             disabled={form.isSubmitting}
+            accessibilityRole="button"
             style={({ pressed }) => [
               styles.button,
               styles.secondaryButton,
